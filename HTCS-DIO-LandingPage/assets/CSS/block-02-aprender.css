@@ -1,0 +1,62 @@
+.mainAprender {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.9) center/cover;
+  border-bottom: 1px solid var(--text-color-blue);
+  margin: 0;
+  gap: 24px;
+  height: 500px;
+}
+.titleAprender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(51, 168, 219, 1);
+  width: 477px;
+  height: 38px;
+  font-weight: 700px;
+  margin: 50px auto 0;
+}
+.textAprender {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 850px;
+  margin: 0 auto;
+  background-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+.modulesAprender {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+  gap: 30px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  flex-direction: column;
+}
+li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid rgba(51, 168, 219, 1);
+  background: rgba(56, 56, 56, 0.4);
+  border-radius: 57px;
+  font-size: 14px;
+  width: 620px;
+  height: 51px;
+  padding: 16px 127px 16px 127px;
+  margin: 10px;
+  list-style-type: none;
+  gap: 5px;
+}
+ul :hover {
+  background: rgba(160, 157, 157, 0.416);
+}
+span {
+  color: rgba(51, 168, 219, 1);
+}
