@@ -1,0 +1,65 @@
+@import url(./global.css);
+
+.mainTrilha {
+  background: 
+  linear-gradient(to top,rgba(0, 0, 0, 0.1), rgba(49, 168, 221, 0.1) , rgba(0, 0, 0, 0.1)),
+  url(../images/Background-trilha.png) center/cover no-repeat;
+  border-bottom: 1px solid var(--text-color-blue);
+  height: 600px;  
+}
+.headerTrilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto ;
+  padding: 30px ;
+  width: 510px;  
+}
+.logoTrilha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 248px;
+  height: 248px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+.titleTrilha {
+  background: var(--text-color-gradient-h1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  }
+.textTrilha {
+  width: 510px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--text-color-white);
+  margin-bottom: 40px;
+}
+.btnTrilha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding: 20px 15px;
+  background: var(--text-color-gradient-bottom);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid var(--text-color-blue);
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.btnTrilha:hover {
+  padding: 20px 16px;
+  background: transparent;
+  background-clip: initial;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: var(--text-color-blue);
+}
