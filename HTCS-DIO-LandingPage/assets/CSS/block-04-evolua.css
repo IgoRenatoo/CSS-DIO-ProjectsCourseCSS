@@ -1,0 +1,20 @@
+@import url(./global.css);
+
+.mainEvolve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.textEvolve {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  line-height: 30px;
+  height: 80px;
+  size: 16px;
+  color: var(--text-color-white);
+}
