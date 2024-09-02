@@ -1,0 +1,69 @@
+@import url(./global.css);
+.sectionMain {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 40px 10px;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  color: var(--color-gray);
+}
+.sectionMain img {
+  width: 60%;
+  max-width: 1000px;
+  min-width: 320px;
+  height: auto;
+}
+.sectionMain div {
+  display: flex;
+  flex-direction: column;
+  max-width: 22rem;
+  gap: 10px;
+}
+.sectionMain div h3 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+}
+.sectionMain div p {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  word-spacing: 2px;
+} 
+.sectionMain div h1 {  
+  font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1000px) {
+  .sectionMain {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionMain img {
+    width: 80%;
+    max-width: 750px;
+  }
+  .sectionMain div {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sectionMain div h3 {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .sectionMain div p {  
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .sectionMain div h1 {  
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
