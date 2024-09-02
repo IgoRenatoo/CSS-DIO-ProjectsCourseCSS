@@ -1,0 +1,70 @@
+header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoYouTub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-weight: 700;  
+}
+.logoYouTub a {
+  display: flex;
+  gap: 5px;
+  color: black;
+  align-items: center;
+  height: 1.5rem;
+}
+.search {
+  display: flex;
+  height: 2.5rem;  
+  border: 1px solid black;;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.fieldSearch {
+  margin: 0px 10px;
+  width: 20rem;
+  border: none;
+  font-size: 20px;
+}
+.fieldSearch:focus {
+  outline: none;
+}
+.fieldSearch::placeholder {
+  font-size: 20px;
+}
+.btnSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;;
+}
+.btnSearch:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+.btnSearch img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  gap: 20px;
+  height: 2rem
+}
+@media (max-width: 700px) {
+  .search {
+    width: 60%;
+  }
+  .fieldSearch {
+    width: 80%;
+  }
+}

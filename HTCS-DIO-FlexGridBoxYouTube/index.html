@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/images/FavIcon-Youtube.png">
+  <title>YT Grid Box</title>
+
+  <!-- Fonte do site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Normalização e padrões básicos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS's -->
+  <link rel="stylesheet" href="./assets/CSS/global.css">
+  <link rel="stylesheet" href="./assets/CSS/header.css">
+  <link rel="stylesheet" href="./assets/CSS/navebar.css">
+  <link rel="stylesheet" href="./assets/CSS/main.css">
+
+</head>
+
+<body>
+  <!-- YouTube, Campo pesquisa e Perfil -->
+  <header>
+    <!-- Link e Logo YouTube -->
+    <section class="logoYouTub">
+      <img src="./assets/images/header/Menu.png" title="Menu" width="30px" alt="Barra de menu">
+      <a href="https://www.youtube.com/" target="_blank"><img src="./assets/images/FavIcon-Youtube.png" width="30px" alt="Acessar Youtube">YouTube</a>
+    </section> 
+
+    <!-- Campo de pesquisa topo da página -->
+    <section class="search">
+      <input class="fieldSearch" type="search" placeholder="Pesquisar">
+      <button class="btnSearch" onclick="Search()">
+        <img src="./assets/images/header/Search.png" title="Pesquisar" width="30px" alt="Campo de pesquisa">
+      </button>
+    </section>
+
+    <!-- Perfil, like e criação de conteúdo -->
+    <section class="perfil">
+      <button onclick="Gravar()">
+        <img src="./assets/images/header/camara.png" title="Gravar" width="30px" alt="Gravar tela">
+      </button>
+      <button onclick="Like()" title="Like">
+        <img id="sino" src="./assets/images/header/SinoNoLike.png" width="30px" alt="Sino para curtir">
+      </button>
+      <a href="https://www.youtube.com/" title="Emily" target="_blank">
+      <img src="./assets/images/header/Image-Emily.png" width="30px" alt="Foto da Emily"></a>
+    </section> 
+  </header>
+
+  <!-- Navebar lateral -->
+  <nav>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Home.png" alt="">Início</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Explorar.png" alt="">Explorar</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Inscrição.png" alt="">Inscrições</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/YTMusic.png" alt="">YT Music</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Like.png" alt="">Vídeos que gostei</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/LoadTime.png" alt="">Assistir mais tarde</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Download.png" alt="">Downloads</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Movie.png" alt="">Filmes</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Learning.png" alt="">Aprender</button>
+    <button onclick="Alert()"><img src="./assets/images/navebar/Esportes.png" alt="">Esportes</button>
+  </nav> 
+
+  <main>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=IAW4QS58" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 1</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=8AC9LGMI" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 2</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=T6E59OBW" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 3</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=AZ8QWPIB" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 4</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=6F8RE1Z3" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 5</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=1ZEH876W" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 6</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=8AC9LGMI" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 7</p>
+    </div>
+    <div>
+      <iframe src="https://watch.brplayer.site/watch?v=QMO61UWJ" allowfullscreen frameborder="0"></iframe>
+      <p>Episódio - 8</p>
+    </div>
+  </main> <!-- Conteúdo principal - Vídeos -->
+</body>
+<script src="./index.js"></script>
+
+</html>
