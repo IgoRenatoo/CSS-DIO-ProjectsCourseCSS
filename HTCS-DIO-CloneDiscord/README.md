@@ -57,7 +57,7 @@ Este projeto prático foi criado para entender e aplicar conceitos de CSS. A ide
 Para começar a usar este projeto, siga as etapas abaixo:
 
 1. Clone o repositório:
-<pre>git clone https://github.com/IgoRenatoo/HTCS-DIO-CloneDiscord</pre>
+<pre>git clone https://github.com/IgoRenatoo/CSS-DIO-ProjectsCourseCSS</pre>
 
 2. Acesse o diretório do projeto:
 <pre>cd HTCS-DIO-CloneDiscord</pre>
