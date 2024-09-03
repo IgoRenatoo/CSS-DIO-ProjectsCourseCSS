@@ -6,7 +6,24 @@
 <h2 align="center"> 🎨 Curso Completo de CSS </h2>
 <br>
 
-<p><strong>Descrição:</strong> Este curso abrangente de CSS aborda desde os conceitos básicos até técnicas avançadas para criar layouts sofisticados e responsivos. Ideal para quem quer aprimorar suas habilidades em design web.</p>
+## 📜 Descrição do Curso
+
+Este curso abrangente de CSS aborda desde os conceitos básicos até técnicas avançadas para criar layouts sofisticados e responsivos. Ideal para quem quer aprimorar suas habilidades em design web.</p>
+
+## 💻 Projetos Práticos
+
+Durante o curso, foram realizados vários projetos práticos para aplicar o conhecimento adquirido:
+
+- <b>Landing Page</b>: Um projeto inicial para criar uma página de destino simples.
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-LandingPage/index.html">Click aqui!</a>
+
+- <b>Layout Responsivo para a Página do Discord</b>: Projeto para criar um layout responsivo inspirado no Discord.
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-CloneDiscord/index.html">Click aqui!</a>
+
+- <b>Clone do YouTube com Flexbox e Grid Layouts</b>: Criação de um layout inspirado na página inicial do YouTube usando Flexbox e técnicas de Grid Layouts.
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-FlexGridBoxYouTube/index.html">Click aqui!</a>
+
+
 
 ## 👨‍💻 Conteúdo do Curso
 
@@ -23,20 +40,11 @@
 - **Dominando Grid Layouts no CSS**: Aplicação de CSS Grid para criar layouts complexos e responsivos.
 - **Responsividade**: Técnicas para tornar as páginas responsivas e adaptáveis a diferentes tamanhos de tela.
 
-
 ### Refinando os Estilos CSS das Nossas Páginas
 
 - **Pseudo Elementos e Pseudo Classes**: Uso de pseudo elementos (`::before`, `::after`) e pseudo classes (`:hover`, `:focus`) para adicionar estilos dinâmicos e decorativos.
 - **Transições e Animações**: Aplicação de transições suaves e animações para melhorar a experiência do usuário.
 - **Boas Práticas e Convenções no CSS**: Melhores práticas para escrever CSS limpo e organizado, incluindo convenções de nomenclatura e estrutura de arquivos.
-
-## 💻 Projetos Práticos
-
-Durante o curso, foram realizados vários projetos práticos para aplicar o conhecimento adquirido:
-
-<pre><b>- Landing Page</b>: Um projeto inicial para criar uma página de destino simples.</pre>
-<pre><b>- Clone do YouTube com Flexbox e Grid Layouts</b>: Criação de um layout inspirado na página inicial do YouTube usando Flexbox e técnicas de Grid Layouts.</pre>
-<pre><b>- Layout Responsivo para a Página do Discord</b>: Projeto para criar um layout responsivo inspirado no Discord.</pre>
 
 ## 🚀 Conclusão
 
