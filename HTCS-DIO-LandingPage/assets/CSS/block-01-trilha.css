@@ -9,21 +9,21 @@
 }
 .headerTrilha {
   display: flex;
+  background-color: transparent;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto ;
   padding: 30px ;
-  width: 510px;  
 }
 .logoTrilha {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 248px;
-  height: 248px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50%;
+  background-color: transparent;
+}
+img {
+  background-color: transparent;
 }
 .titleTrilha {
   background: var(--text-color-gradient-h1);
@@ -38,6 +38,7 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
+  background-color: transparent;
   color: var(--text-color-white);
   margin-bottom: 40px;
 }
