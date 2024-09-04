@@ -12,16 +12,18 @@ Este curso abrangente de CSS aborda desde os conceitos básicos até técnicas a
 
 ## 💻 Projetos Práticos
 
-Durante o curso, foram realizados vários projetos práticos para aplicar o conhecimento adquirido:
+Durante o curso, foram realizados vários projetos práticos para aplicar o conhecimento adquirido: 
+
+Link geral ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/">🔗 Click aqui!</a>
 
 - <b>Landing Page</b>: Um projeto inicial para criar uma página de destino simples.
-  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-LandingPage/index.html">Click aqui!</a>
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-LandingPage/index.html">🔗 Click aqui!</a>
 
 - <b>Layout Responsivo para a Página do Discord</b>: Projeto para criar um layout responsivo inspirado no Discord.
-  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-CloneDiscord/index.html">Click aqui!</a>
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-CloneDiscord/index.html">🔗 Click aqui!</a>
 
 - <b>Clone do YouTube com Flexbox e Grid Layouts</b>: Criação de um layout inspirado na página inicial do YouTube usando Flexbox e técnicas de Grid Layouts.
-  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-FlexGridBoxYouTube/index.html">Click aqui!</a>
+  - Link de acesso ~> <a target="_blank" href="https://igorenatoo.github.io/CSS-DIO-ProjectsCourseCSS/HTCS-DIO-FlexGridBoxYouTube/index.html">🔗 Click aqui!</a>
 
 
 
